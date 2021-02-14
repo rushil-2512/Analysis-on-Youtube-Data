@@ -1,0 +1,1 @@
+select top 1 category, removed, trending_count  from YoutubeDataset.dbo.GBvideos order by removed desc;
